@@ -1,0 +1,46 @@
+.infoBox{
+  width: 85vw;
+  margin: 0 auto;
+  padding: 10vw;
+}
+@media screen and (min-width: 700px) {
+  .infoBox{
+    width: 85vw;
+    margin: 0 auto;
+    padding: 4vw;
+  }
+}
+.left{
+  display: inline-block;
+}
+.title{
+  color: rgb(119,110,101);
+  font-size: 15vw;
+}
+.reGame{
+  background-color: rgb(143,122,102);
+  color: rgb(255,255,255);
+  display: block;
+  font-size: 5vw; 
+}
+.right{
+  float: right;
+  background-color: rgb(187,173,160);
+  border-radius: 10rpx; 
+  width: 30vw;
+  height: 30vw;
+  font-size: 10vw;
+  line-height: 15vw;
+  margin-top: 2vw;
+  margin-right: 4vw; 
+}
+.score{
+  color: rgb(238,228,218);
+  display: block;
+  text-align: center;
+}
+.scoreNumber{
+  color: rgb(255,255,255);
+  display: block;
+  text-align: center;
+}

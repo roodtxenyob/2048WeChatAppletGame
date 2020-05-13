@@ -1,0 +1,145 @@
+.box{
+  background-color: rgb(187,173,160);
+  width: 85vw;
+  height: 85vw;
+  margin: 0 auto;
+  border-radius: 10rpx; 
+  position: relative;
+}
+
+.item{
+  background-color: rgb(205,193,180);
+  width: 18vw;
+  height: 18vw;
+  display: inline-block;
+  vertical-align:top;
+  margin-left: 2.6vw;
+  margin-top: 2.6vw; 
+  border-radius: 5rpx;
+  /* 解决底部留白 */
+}
+
+.pieces{
+  width: 85vw;
+  height: 85vw;
+  position: absolute;
+  top: 0px;
+}
+
+.piecesItem{
+  width: 18vw;
+  height: 18vw;
+  display: inline-block;
+  vertical-align:top;
+  margin-left: 2.6vw;
+  margin-top: 2.6vw; 
+  border-radius: 5rpx;
+  font-size: 10vw;
+  text-align: center;
+  line-height: 18vw;
+}
+
+.color0{
+  background-color: rgb(205,193,180);
+  color: rgb(205,193,180);
+}
+
+.color2{
+  background-color: #eee4da;
+  color: #776e65;
+}
+
+.color4{
+  background-color: #ede0c8;
+  color: #776e65;
+}
+
+.color8{
+  background-color: #f2b179;
+  color: #f9f6f2;
+}
+
+.color16{
+  background-color: #f59563;
+  color: #f9f6f2;
+}
+
+.color32{
+  background-color: #f67c5f;
+  color: #f9f6f2;
+}
+
+.color64{
+  background-color: #f65e3b;
+  color: #f9f6f2;
+}
+
+.color128{
+  background-color: #edcf72;
+  color: #f9f6f2;
+  box-shadow: 0 0 30px 10px rgba(243,215,116,.2381), inset 0 0 0 1px rgba(255,255,255,.14286);
+}
+
+.color256{
+  background-color: #edcc61;
+  color: #f9f6f2;
+  box-shadow: 0 0 30px 10px rgba(243,215,116,.31746), inset 0 0 0 1px rgba(255,255,255,.19048);
+}
+
+.color512{
+  background-color: #edc850;
+  color: #f9f6f2;
+  box-shadow: 0 0 30px 10px rgba(243,215,116,.39683), inset 0 0 0 1px rgba(255,255,255,.2381);
+}
+
+.color1024{
+  background-color: #edc53f;
+  color: #f9f6f2;
+  box-shadow: 0 0 30px 10px rgba(243,215,116,.47619), inset 0 0 0 1px rgba(255,255,255,.28571);
+  font-size: 7vw;
+}
+
+.color2048{
+  background-color: #edc22e;
+  color: #f9f6f2;
+  box-shadow: 0 0 30px 10px rgba(243,215,116,.55556), inset 0 0 0 1px rgba(255,255,255,.33333);
+  font-size: 7vw;
+}
+
+.ia{
+  animation: iaa 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes iaa{
+  0%{
+  transform: scale(0.2);  
+  }
+  50%{
+      transform: scale(0.75); 
+  }
+  75%{
+      transform: scale(1);
+  }
+}
+
+.ma{
+  animation: maa 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes maa{
+  0%{
+  transform: scale(1);  
+  }
+  25%{
+      transform: scale(1.2); 
+  }
+  75%{
+      transform: scale(1.1); 
+  }
+  100%{
+      transform: scale(1);
+  }
+}
+

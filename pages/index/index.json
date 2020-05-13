@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "gameInfo":"/component/gameInfo/gameInfo",
+    "box":"/component/box/box"
+  }
+}

@@ -1,0 +1,20 @@
+<view class="box" bindtouchstart="touchStart" bindtouchend="touchEnd">
+  <!-- 背景开始 -->
+  <view class="row" wx:for="{{4}}" wx:key="index">
+    <view class="item" wx:for="{{4}}" wx:key="index">
+    </view>
+  </view>
+  <!-- 背景结束 -->
+  <!-- 会移动的块开始 -->
+  <view class="pieces">
+    <view class="piecesRow" wx:for="{{pieces}}" wx:key="indexY" wx:for-index="indexX">
+      <view class="piecesItem color{{item}} {{insertActive[indexX][indexY] != 0?'ia':''}} {{mergeActive[indexX][indexY] != 0?'ma':''}}"
+        wx:for="{{item}}" wx:key="index" wx:for-index="indexY"
+      >
+        <!-- {{insertX}}{{indexX}} {{insertY}}{{indexY}} -->
+        <text>{{item}}</text>
+      </view>
+    </view>
+  </view>
+  <!-- 会移动的块结束 -->
+</view>

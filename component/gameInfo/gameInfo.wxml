@@ -1,0 +1,14 @@
+<view class="infoBox">
+
+  <view class="left">
+    <text class="title">2048</text>
+    <button class="reGame" style="width: 35vw;">重新开始</button>
+    <!-- 类选择器无效 -->
+  </view>
+  
+  <view class="right">
+    <text class="score">分数</text>
+    <text class="scoreNumber">{{snum}}</text>
+  </view>
+  
+</view>

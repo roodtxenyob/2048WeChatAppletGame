@@ -1,0 +1,4 @@
+<view class="container">
+  <gameInfo snum="{{snum}}"></gameInfo>
+  <box bind:addScore="addScore"></box>
+</view>
